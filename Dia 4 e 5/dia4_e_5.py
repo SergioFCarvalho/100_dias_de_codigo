@@ -11,6 +11,8 @@ def multiplicacao(x, y):
 
 
 def divisao(x, y):
+    if y == 0:
+        return "Erro: Divisão por zero"
     return x / y
 
 
@@ -21,21 +23,32 @@ def calculadora():
     print('3 - Multiplicação')
     print('4 - Divisão')
 
-    print("---" * 10)
-    opcao = input("Digite o número da operação: ")
+    while True:
+        print("---" * 10)
+        opcao = input("Digite o número da operação: ")
 
-    if opcao == '1':
-        print(f'{num1} + {num2} = {adicao(num1, num2)}')
-    if opcao == '2':
-        print(f'{num1} - {num2} = {subtracao(num1, num2)}')
-    if opcao == '3':
-        print(f'{num1} * {num2} = {multiplicacao(num1, num2)}')
-    if opcao == '4':
-        print(f'{num1} / {num2} = {divisao(num1, num2)}')
+        num1 = int(input("Digite o primeiro número: "))
+        num2 = int(input("Digite o segundo número: "))
+        print("---" * 10)
 
+        if opcao == '1':
+            print(f'{num1} + {num2} = {adicao(num1, num2)}')
+        elif opcao == '2':
+            print(f'{num1} - {num2} = {subtracao(num1, num2)}')
+        elif opcao == '3':
+            print(f'{num1} * {num2} = {multiplicacao(num1, num2)}')
+        elif opcao == '4':
+            resultado = divisao(num1, num2)
+            print(f'{num1} / {num2} = {resultado}')
+        else:
+            print('Opção inválida')
+            continue
 
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
-print("---" * 10)
+        continuar = input("Deseja continuar? (s/n) ")
+        if continuar.lower() == 'n':
+            print("---" * 10)
+            print("Calculadora encerrada")
+            break
+
 
 calculadora()
