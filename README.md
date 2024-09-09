@@ -1,6 +1,6 @@
 # 100_dias_de_codigo
 
-100 dias de código - Codi Academy
+## 100 dias de código - Codi Academy
 
 🗂️Dia 1: 4/9/2024
 
