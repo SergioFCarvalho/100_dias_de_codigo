@@ -1,12 +1,16 @@
 # Faça um programa que calcula o fatorial de um número. (Python)
+def fatorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * fatorial(n - 1)
 
-import time
-num = int(input("Digite um número: "))
 
-fatorial = 1
-for i in range(1, num + 1):
-    fatorial *= i
-    time.sleep(0.8)
-    print(i, end=' ')
-print('')
-print(f'O fatorial do {num} é {fatorial}')
+# Solicitar um número ao usuário
+numero = int(input("Digite um número para calcular o fatorial: "))
+
+# Verificar se o número é positivo
+if numero < 0:
+    print("Fatorial não é definido para números negativos.")
+else:
+    print(f"O fatorial de {numero} é {fatorial(numero)}")
