@@ -18,7 +18,7 @@ Desafio: Escreva um programa que verifica se um número é par ou ímpar.
 
 Desafio: Crie uma calculadora simples que realiza operações de adição, subtração, divisão e multiplicação.
 
-#
+# Semana 2
 
 🗂️Dia 6 – 9/9/24
 
@@ -46,7 +46,7 @@ Criando um elemento HTML manipulável com CSS e JavaScript DOM
 🗂️Dia 12 – 15/9/24
 Criando um card interativo com HTML e CSS, quando ao clicado, o card vira frente/verso
 
-#
+# Semana 3
 
 🗂️Dia 13 – 16/9/24
 Desenvolvendo um temporizador com HTML, CSS E JS.
@@ -89,7 +89,7 @@ Desenvolvendo um card exemplo, com um botão de vendas linkado diretamente ao Pa
 utilizaremos um componente que a plataforma do PayPal fornece para desenvolvedores
 utilizarem em seus projetos.
 
-#
+# Semana 4
 
 🗂️Dia 21 – 24/9/24
 Introdução e Instalação do Git
@@ -127,7 +127,7 @@ Estilizando o perfil do GitHub
 
 Comece a trabalhar com a parte de estilo do seu perfil no GitHub, procure fazer mudanças para causar uma boa impressão aos recrutadores
 
-#
+# Semana 5
 
 🗂️Dia 27 – 1/10/24
 Estilizando o perfil do GitHub
@@ -164,7 +164,7 @@ Renderização Condicional e UseState
 
 Utilize o hook useState do React para criar uma variável de estado booleana vínculada diretamente à renderização de um componente, quando ela for true o componente é renderizado, quando false o componente não é renderizado em tela
 
-#
+# Semana 6
 
 🗂️Dia 34 – 7/10/24
 Renderização Condicional e UseState
@@ -201,7 +201,8 @@ Quadro de Tarefas em React – Parte 3
 
 Para concluir o projeto, crie um último componente referente ao quadro de nossa aplicação, onde as tarefas adicionadas pelo usuário serão listadas, lembre-se de manter a comunicação entre os componentes usando props. Adicione também ao projeto um botão de deletar em cada uma das tarefas, para a funcionalidade de apagar uma tarefa específica/concluída.
 
-#
+# Semana 7
+
 🗂️Dia 41 – 14/10/24
 Instalação e Inicialização do Node JS
 
@@ -237,7 +238,8 @@ Modelagem/Renderização com Loops e Condicionais
 
 Utilize o frontend com React para utilizar do conceito de renderização condicional, porém, utilize o servidor backend para obter a informação necessária refente ao componente condicional ser renderizado ou não. Utilize instruções condicionais (IF, SWITCH) e estruturas de repetição (FOR, WHILE) para manipular e iterar sobre dados do backend em nosso frontend.
 
-#
+# Semana 8
+
 🗂️Dia 48 – 21/10/24
 Manipulando formulários (POST)
 
@@ -279,7 +281,8 @@ Análise de Palavras em um Texto
 Escreva um programa que analisa um texto fornecido pelo usuário, contando o número
 de palavras, frases e caracteres.
 
-#
+# Semana 9
+
 🗂️Dia 55 – 28/10/24
 Análise de Sentimento em Texto
 
