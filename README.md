@@ -200,3 +200,123 @@ Dando prosseguimento ao projeto, crie vinculado ao formulário de adição, no c
 Quadro de Tarefas em React – Parte 3
 
 Para concluir o projeto, crie um último componente referente ao quadro de nossa aplicação, onde as tarefas adicionadas pelo usuário serão listadas, lembre-se de manter a comunicação entre os componentes usando props. Adicione também ao projeto um botão de deletar em cada uma das tarefas, para a funcionalidade de apagar uma tarefa específica/concluída.
+
+#
+🗂️Dia 41 – 14/10/24
+Instalação e Inicialização do Node JS
+
+Instale o Node JS no seu computador, caso não tenha. Inicialize um projeto com node utilizando no terminal o comando npm init -y para começar a estruturar seu primeiro servidor backend
+
+🗂️Dia 42 – 15/10/24
+Implementando o servidor
+
+Após criar a estrutura básica do servidor, utilize o framework express para gerenciar diferentes requisições e rotas de forma simples e introdutória
+
+🗂️Dia 43 – 16/10/24
+Implementando as rotas
+
+Continue explorando o express, framework do node para criar diferentes rotas na sua aplicação, seja criativo na criação de rotas relacionadas ao tipo de projeto que seu backend vai atender. Dica: pense em fazer seu servidor backend para atender um projeto frontend.
+
+🗂️Dia 44 – 17/10/24
+Utilizando SQLite para criar uma tabela
+
+Utilize o banco de dados SQLite no VSCode, integrado ao seu servidor Node JS para simular um fluxo de conexão backend + banco de dados, crie uma tabela no SQLite.
+
+🗂️Dia 45 – 18/10/24
+Conectando Frontend e Backend
+
+Crie um projeto React e conecte-o ao servidor backend node js para poder manipular requisições http e o banco de dados SQLite via Frontend
+
+🗂️Dia 46 – 19/10/24
+Estruturando um projeto Node + Express do zero
+
+Para continuar aprofundando os conceitos cobrados até aqui, inicie novamente do zero uma estrutura backend com node js e express, lembre-se, comece a estrutura com o comando npm init -y. A partir daí instale dependências, crie rotas da API, crie regras de negócio e controladores em seu código para dar funcionalidade ao servidor backend, pense em um projeto específico em mente.
+
+🗂️Dia 47 – 20/10/24
+Modelagem/Renderização com Loops e Condicionais
+
+Utilize o frontend com React para utilizar do conceito de renderização condicional, porém, utilize o servidor backend para obter a informação necessária refente ao componente condicional ser renderizado ou não. Utilize instruções condicionais (IF, SWITCH) e estruturas de repetição (FOR, WHILE) para manipular e iterar sobre dados do backend em nosso frontend.
+
+#
+🗂️Dia 48 – 21/10/24
+Manipulando formulários (POST)
+
+Utilize endpoints criados com Node + Express para manipular dados em um formulário
+
+🗂️Dia 49 – 22/10/24
+Middlewares
+
+Crie um endpoint que interrompa(venha antes), de todas rotas de sua aplicação, para assim aplicar o conceito de middlewares no node js
+
+🗂️Dia 50 – 23/10/24
+Login
+
+Utilize os conceitos aprendidos até aqui, e faça um código backend com Node + Express referente à um fluxo de login, faça também um frontend simples para consumir esse fluxo
+
+🗂️Dia 51 – 24/10/24
+(Python Intermediário)
+Manipulaçao de String
+
+Utilizando python, escreva um programa que recebe uma frase do usuário e realiza a manipulação da string,
+realizando operações como contar o número de caracteres, inverter a string e imprimir
+cada palavra em uma linha.
+
+🗂️Dia 52 – 25/10/24
+Busca binária
+
+Utilizando python, implemente um programa que realiza a busca binária em uma lista ordenada
+fornecida pelo usuário.
+
+🗂️Dia 53 – 26/10/24
+Cálculo de Juros Compostos
+
+Desenvolva um programa que calcula o montante de um investimento com juros
+compostos, onde o usuário fornece o principal, a taxa de juros e o número de anos.
+
+🗂️Dia 54 – 27/10/24
+Análise de Palavras em um Texto
+
+Escreva um programa que analisa um texto fornecido pelo usuário, contando o número
+de palavras, frases e caracteres.
+
+#
+🗂️Dia 55 – 28/10/24
+Análise de Sentimento em Texto
+
+Crie um programa que realiza a análise de sentimento de um texto fornecido pelo usuário. O programa deve utilizar uma biblioteca de processamento de linguagem natural (NLP) para identificar se o sentimento do texto é positivo, negativo ou neutro.
+
+🗂️Dia 56 – 29/10/24
+Manipulação de Arquivos
+
+Crie um programa que lê o conteúdo de um arquivo, conta o número de palavras
+e imprime na tela.
+
+🗂️Dia 57 – 30/10/24
+Árvore Binária de Busca
+
+Implemente uma árvore binária de busca e crie funções para inserir e buscar elementos.
+python
+
+🗂️Dia 58 – 31/10/24
+Gerador de Senhas Aleatórias
+
+Crie um programa que gera senhas aleatórias com uma combinação de letras
+maiúsculas, minúsculas, números e caracteres especiais.
+
+🗂️Dia 59 – 01/11/24
+Jogo da Velha
+
+Implemente o jogo da velha para dois jogadores. O programa deve solicitar as jogadas
+dos jogadores e verificar se houve um vencedor.
+
+🗂️Dia 60 – 02/11/24
+Interface com botões em python
+
+Desenvolva uma interface simples utilizando a biblioteca tkinter do python, com 3 botões, cada botão
+deve chamar uma função que indique que aquele botão foi clicado
+
+🗂️Dia 61 – 03/11/24
+Django
+Configuração Inicial do Projeto Django
+
+Execute o comando inicial para começar um projeto Django, dentro do projeto recém-criado, comece a desenvolver um aplicativo chamado “Core”
