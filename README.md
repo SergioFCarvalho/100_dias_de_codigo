@@ -323,3 +323,9 @@ Django
 Configuração Inicial do Projeto Django
 
 Execute o comando inicial para começar um projeto Django, dentro do projeto recém-criado, comece a desenvolver um aplicativo chamado “Core”
+# Semana 10
+# Semana 11
+# Semana 12
+# Semana 13
+# Semana 14
+# Semana 15
